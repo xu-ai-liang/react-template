@@ -1,0 +1,15 @@
+**/*.svg
+package.json
+/dist
+.dockerignore
+.DS_Store
+.eslintignore
+*.png
+*.toml
+dockerfile
+.editorconfig
+.gitignore
+.prettierignore
+LICENSE
+*.lock
+*.log

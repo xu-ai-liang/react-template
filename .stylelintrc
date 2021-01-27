@@ -1,0 +1,11 @@
+{
+  "extends": ['stylelint-config-standard', 'stylelint-config-prettier'],
+  "rules": {
+    # 在注释前不能有空行
+    "comment-empty-line-before": "never",
+    # 0 可以加单位
+    "length-zero-no-unit": null,
+    # 不提示嵌套排列，针对potal
+    "no-descending-specificity": null
+  }
+}

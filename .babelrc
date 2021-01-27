@@ -1,0 +1,28 @@
+{
+  "presets": [
+    // 转 ES6
+    "@babel/preset-env",
+    // 转 jsx 语法
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    // 允许 Babel 解析动态导入
+    "@babel/plugin-syntax-dynamic-import",
+    // 转 ES6 API
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        // 使用 es modules helpers, 减少 commonJS 语法代码
+        "useESModules": true
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": "css"
+      }
+    ]
+  ]
+}

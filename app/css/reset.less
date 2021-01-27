@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  border: none;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 14px/1.5 tahoma, \5b8b\4f53, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: courier new, courier, monospace;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  border: none;
+  height: 1px;
+}
+input {
+  border: none;
+  appearance: none;
+  -moz-appearance: none;
+  outline: none; // input 标签聚焦不出现默认边框
+  -webkit-appearance: none; // 用于 IOS 下移除原生样式
+  /* 设置 placeholder 的默认样式 */
+  &:-moz-placeholder {
+    color: #ddd;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder {
+    color: #ddd;
+    opacity: 1;
+  }
+  &:-webkit-input-placeholder {
+    color: #ddd;
+    opacity: 1;
+  }
+  &:focus {
+    outline: none;
+  }
+}
